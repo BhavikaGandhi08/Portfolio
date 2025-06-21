@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Developer Portfolio - Bhavika Gandhi</title>
+    <meta name="description" content="Portfolio website showcasing projects, skills, and contact information for Bhavika Gandhi, a full stack developer.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero-text-box">
+            <h1><span >Welcome to the world of</span><br>
+                <span id="element">Bhavika Gandhi</span> 
+            </h1>
+            <a class="btn btn-full" href="#projects">My Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact</a>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I’m Bhavika Gandhi, a passionate software developer (in making! :D) with a B.Tech in Computer Science. I have over a year of experience in .NET development and have worked with technologies such as ASP.NET Core, C#, Angular, SQL Server, and more.
+                I enjoy building scalable, clean solutions and learning new technologies. 
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Bellabeat's Strategy: Data Analysis Case Study</h3>
+                <figure>
+                    <img src="assets/images/bellabeatsProject.png" alt="Screenshot of Project One">
+                    <figcaption>Project One Screenshot</figcaption>
+                </figure>
+                <p>
+                    Analyzed smart fitness watch data by cleaning and transforming raw inputs for insights. Utilized SQL and Excel to identify usage patterns and trends, leading to actionable recommendations that enhanced the marketing strategy.
+                </p>
+            </article>
+            <article>
+                <h3>Books, Just Books: Frontend Web Development</h3>
+                <figure>
+                    <img src="assets/images/booksJustBooksProject.png" alt="Screenshot of Project Two">
+                    <figcaption>Project Two Screenshot</figcaption>
+                </figure>
+                <p>
+                    Designed and developed a responsive website frontend using HTML and CSS. Incorporated UX principles and user research to create low-fidelity prototypes, ensuring an intuitive and user-centered design.
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 &amp; CSS3</li>
+                <li>JavaScript (ES6+) &amp; TypeScript</li>
+                <li>.NET &amp; C#</li>
+                <li>Angular</li>
+                <li>SQL &amp; SQL Server</li>
+                <li>Git &amp; GitHub</li>
+                <li>RESTful APIs</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
